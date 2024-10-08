@@ -19,7 +19,7 @@ h1 {
 /*    SELECT ALL SQUARES IN THE ARRAY   */
 
 .container .squares:nth-child(-n+4) {
-    background-image: url(../CSS/images/icons2.png);
+    background-image: url(../images/icons2.png);
     color: #fff;
     float: left;
     width: 100px;
@@ -34,7 +34,7 @@ h1 {
 /* SELECT ALL SQUARES PARAGRAPHS IN ARRAY */
 
 .squares:nth-child(-n+4) p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
     font-size: 1.5em;
     font-weight: 900;
     text-align: center;
@@ -60,10 +60,10 @@ h1 {
     background:#00b200;
 }
 
-/* HOVER EFFECTS */
+/* HOVER, TRANSLATE & TRANSFORM EFFECTS */
 
-.container.squares:nth-child(-n+4):hover {
-    background-image: url(../CSS/images/icons\ \(1\).png);
+.container .squares:nth-child(-n+4):hover {
+    background-image: url(../images/icons\ \(1\).png);
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -94,7 +94,7 @@ h1 {
 @keyframes race {
     0%, 100% {
     transform: translateY(0px);
-    background-image: url(./images/icons\ \(1\).png);
+    background-image: url(../images/icons\ \(1\).png);
     }
     50% {
         transform: translateY(300px);
